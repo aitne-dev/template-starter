@@ -1,0 +1,9 @@
+///|
+pub fn app() -> &View {
+  <Router base="/">
+    <Routes fallback={() => <NotFound />}>
+      <Route path="/" view={() => <Home />} />
+    </Routes>
+  </Router>
+}
+

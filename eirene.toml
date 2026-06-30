@@ -1,0 +1,13 @@
+[app]
+name = "aitne_starter"
+mode = "development"
+entry_html = "index.html"
+
+[build]
+target = "js"
+src_dir = "src"
+out_dir = "."
+
+[server]
+host = "127.0.0.1"
+port = 8000

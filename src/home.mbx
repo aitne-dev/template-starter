@@ -1,0 +1,13 @@
+using @dom { trait View }
+
+pub fn home() -> &View {
+  <div>
+
+    <h1>Welcome to Aitne</h1>
+
+    <div class="container">
+        <CounterBtn />
+        <CounterBtn incr={-1}/>
+    </div>
+  </div>
+}
