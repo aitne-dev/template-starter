@@ -1,8 +1,12 @@
 import {
-  "Arcelyth/aitne/src/dom" @dom,
+  "Arcelyth/aitne/src/dom",
   "Arcelyth/aitne/src/reactive",
+  "aitne_starter/src/component",
+  "aitne_starter/src/page",
 }
 
 options (
   "is-main": true,
 )
+
+

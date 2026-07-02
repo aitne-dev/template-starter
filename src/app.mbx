@@ -1,3 +1,5 @@
+using @page { home, not_found }
+
 ///|
 pub fn app() -> &View {
   <Router base="/">

@@ -2,29 +2,36 @@
 
 ## Getting Started
 
-### Install Aitne CLI binary
+### Installing CLI
 
-### Create a project from this template
-
+macOS/Linux:
+```bash
+curl -fsSL https://raw.githubusercontent.com/Arcelyth/aitne/main/scripts/install.sh | bash
 ```
+
+*`aitne` CLI depends on async library which not support Windows now*
+
+### Initializing
+
+```bash
 aitne init your_project
 cd your_project
 ```
 
-This template is the default template, if you want to use other template, run: 
-```
-aitne init your_project -t template_name
-```
-
-## Usage
-
-Build this project: 
-```
-moon build
+Build your project:
+```bash
+aitne build
 ```
 
-Run: 
+### Running
+
 ```
 aitne run
 ```
 
+This will start a web server on `http://localhost:8000` by default which depends on `eirene.toml` config file.
+
+## Learn more
+
+[Book](https://aitne-dev.github.io/book) <br>
+[API Document](https://mooncakes.io/docs/Arcelyth/aitne) <br>

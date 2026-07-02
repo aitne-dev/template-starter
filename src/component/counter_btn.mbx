@@ -1,6 +1,8 @@
+using @dom { trait View }
+
 pub fn counter_btn(incr?: Int = 1) -> &View {
     let (count, set_count) = @reactive.create_signal(0)
     <button on:click={(_) => { set_count.update((v) => { v + incr }) }}>
-        "Click me: " {() => count.get().to_string()}
+        Click me:  {() => count.get().to_string()}
     </button>
 }
