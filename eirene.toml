@@ -7,6 +7,7 @@ entry_html = "index.html"
 target = "js"
 src_dir = "src"
 out_dir = "."
+style_root = ["./dist", "./public", "./src"]
 
 [server]
 host = "127.0.0.1"
